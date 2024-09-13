@@ -74,7 +74,7 @@ use std::time::Duration;
 mod hal;
 #[cfg(feature = "hal-unproven")]
 mod hal_unproven;
-mod sysfs;
+pub mod sysfs;
 
 use crate::system::DeviceInfo;
 
